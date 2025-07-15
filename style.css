@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popppins', sans-serif;
+
+}
+body{
+    background-color: black;
+}
+
+.main{
+    
+    background-image: url(assets/images/main\ background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 80vh;
+    position: relative;
+}
+.main .banner{
+    height: 60vw;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vh;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    padding: 23px;
+    text-align: center;
+    font-family: 'Martal Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+    position: relative;
+    gap: 29px;
+
+}
+.hero > :nth-child(1){
+    font-size: 45px;
+    font-weight: 900;
+}
+.hero :nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hero .form input{
+    background-color: rebeccapurple;
+    fill: currentcolor;
+    min-width: 12.5rem;
+
+}
+
+
+.hero button{
+    border: 0px;
+    cursor: pointer;
+    fill: currentcolor;
+    position: relative;
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+    vertical-align: text-top;
+    width: auto;
+    font-family: unset;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+
+}
